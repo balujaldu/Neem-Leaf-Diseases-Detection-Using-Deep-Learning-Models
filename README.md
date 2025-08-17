@@ -1,16 +1,10 @@
-# Neem-Leaf-Diseases-Detection-Using-Deep-Learning-Models
-This project focuses on the detection of neem leaf diseases using deep learning algorithms, based on a newly published dataset from Mendeley Data. The work goes beyond classification—it also explores preprocessing and segmentation techniques to improve model performance.
- Key Highlights
-Implemented and compared multiple deep learning architectures: AlexNet, GoogLeNet, DenseNet, MobileNet, and ResNet.
+This project focuses on detecting neem leaf diseases using a newly published dataset from Mendeley Data. As part of this research, I implemented and compared multiple deep learning architectures, including AlexNet, GoogLeNet, ResNet, MobileNet, and DenseNet. Among these, DenseNet achieved the best performance with 90% accuracy, demonstrating its effectiveness for this dataset.
 
-Achieved the highest accuracy of 90% with DenseNet, making it the best-performing model in this study.
+Beyond classification, I explored various preprocessing and segmentation techniques to address the challenges of working with real-world plant disease datasets. In particular, I experimented with K-Means image segmentation, which successfully highlighted regions of interest but did not significantly improve classification accuracy, which remained around 90%.
 
-Explored various preprocessing techniques and segmentation methods to handle the challenges of the dataset.
+This research highlights the limitations of K-Means segmentation when used in isolation and points to promising directions for improvement. Future work could involve hybrid approaches such as integrating U-Net with K-Means segmentation to improve disease localization and overall model performance.
 
-Integrated K-Means image segmentation to improve feature extraction. While K-Means helped in highlighting regions of interest, the accuracy remained around 90%, indicating that segmentation alone was not sufficient for boosting results.
-
-🔹 Research Insight
-This research highlights the limitations of K-Means segmentation in complex plant disease datasets. Although effective for basic segmentation, the study shows that accuracy gains are minimal without deeper integration. A potential future direction is to combine U-Net with K-Means segmentation, which could enhance feature extraction and disease localization.
+This work has been published in IEEE and was honored with the Best Paper Award , reflecting its contribution to advancing research in plant disease detection using deep learning.
 
 my research paper link : https://ieeexplore.ieee.org/document/11031880
 
